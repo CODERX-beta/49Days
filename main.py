@@ -1,12 +1,5 @@
 #!/usr/bin/env python3
 """
-chat_bubble_video.py
-
-Overlays plain chat-style text (like a text conversation) onto a video,
-for making reel / TikTok style "texting story" videos. No bubble
-background is drawn -- just the text itself, with a thin outline for
-legibility over any video background.
-
 Dependencies (all modern, actively maintained, no ImageMagick needed):
     pip install moviepy pillow
 
