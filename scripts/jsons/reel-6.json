@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "P1",
+    "text": "Why do you tremble?",
+    "start": 0.0,
+    "duration": 3.0,
+    "x": 40,
+    "y": 340
+  },
+  {
+    "speaker": "P2",
+    "text": "The storm is tearing me apart!",
+    "start": 3.0,
+    "duration": 3.0,
+    "x": 250,
+    "y": 450
+  },
+  {
+    "speaker": "P1",
+    "text": "Trees don't fight the wind. They bend so they never break.",
+    "start": 6.0,
+    "duration": 6.0,
+    "x": 40,
+    "y": 325
+  },
+  {
+    "speaker": "P2",
+    "text": "But I'm losing ground!",
+    "start": 12.0,
+    "duration": 3.0,
+    "x": 240,
+    "y": 475
+  },
+  {
+    "speaker": "P1",
+    "text": "Water cuts stone. Not by force, but persistence.",
+    "start": 15.0,
+    "duration": 6.0,
+    "x": 25,
+    "y": 350
+  },
+  {
+    "speaker": "P2",
+    "text": "Must I bleed to win?",
+    "start": 21.0,
+    "duration": 3.0,
+    "x": 240,
+    "y": 475
+  },
+  {
+    "speaker": "P1",
+    "text": "You bleed to grow. Stand up. Face the storm.",
+    "start": 24.0,
+    "duration": 6.0,
+    "x": 40,
+    "y": 350
+  }
+]

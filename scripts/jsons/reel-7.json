@@ -1,0 +1,58 @@
+[
+  {
+    "speaker": "P1",
+    "text": "Why hide your scars?",
+    "start": 0.0,
+    "duration": 3.0,
+    "x": 50,
+    "y": 355
+  },
+  {
+    "speaker": "P2",
+    "text": "They remind me of my defeats!",
+    "start": 3.0,
+    "duration": 3.0,
+    "x": 250,
+    "y": 450
+  },
+  {
+    "speaker": "P1",
+    "text": "A blade without scratches has never seen battle. Scars are proof of survival.",
+    "start": 6.0,
+    "duration": 6.0,
+    "x": 40,
+    "y": 300
+  },
+  {
+    "speaker": "P2",
+    "text": "But I am still weak!",
+    "start": 12.0,
+    "duration": 3.0,
+    "x": 250,
+    "y": 480
+  },
+  {
+    "speaker": "P1",
+    "text": "Fire does not weaken steel. It tests its purity.",
+    "start": 15.0,
+    "duration": 6.0,
+    "x": 40,
+    "y": 340
+  },
+  {
+    "speaker": "P2",
+    "text": "What if the fire consumes me?",
+    "start": 21.0,
+    "duration": 3.0,
+    "x": 250,
+    "y": 450
+  },
+  {
+    "speaker": "P1",
+    "text": "Then burn brighter. Turn your fear into fuel.",
+    "start": 24.0,
+    "duration": 6.0,
+    "x": 40,
+    "y": 340
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "speaker": "P1",
+    "text": "I can't do this anymore.",
+    "start": 0.0,
+    "duration": 1.5,
+    "x": 300,
+    "y": 400
+  },
+  {
+    "speaker": "P2",
+    "text": "Then don't.",
+    "start": 1.5,
+    "duration": 1.0,
+    "x": 65,
+    "y": 350
+  },
+  {
+    "speaker": "P1",
+    "text": "What?",
+    "start": 2.5,
+    "duration": 1.0,
+    "x": 300,
+    "y": 450
+  },
+  {
+    "speaker": "P2",
+    "text": "Don't quit. Just keep going.",
+    "start": 3.5,
+    "duration": 2.0,
+    "x": 20,
+    "y": 325
+  },
+  {
+    "speaker": "P1",
+    "text": "Even if I'm afraid?",
+    "start": 5.5,
+    "duration": 2.0,
+    "x": 300,
+    "y": 400
+  },
+  {
+    "speaker": "P2",
+    "text": "Especially then.",
+    "start": 7.5,
+    "duration": 2.2,
+    "x": 60,
+    "y": 350
+  }
+]

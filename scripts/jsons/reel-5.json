@@ -1,0 +1,106 @@
+[
+  {
+    "speaker": "P1",
+    "text": "Why drop your hands?",
+    "start": 0.0,
+    "duration": 3.0,
+    "x": 40,
+    "y": 340
+  },
+  {
+    "speaker": "P2",
+    "text": "I have nothing left. The wall won't move.",
+    "start": 3.0,
+    "duration": 4.0,
+    "x": 250,
+    "y": 400
+  },
+  {
+    "speaker": "P1",
+    "text": "You aren't fighting a wall. You're fighting your mind.",
+    "start": 7.0,
+    "duration": 5.0,
+    "x": 25,
+    "y": 350
+  },
+  {
+    "speaker": "P2",
+    "text": "Look at my hands! They bleed. I'm exhausted.",
+    "start": 12.0,
+    "duration": 4.0,
+    "x": 250,
+    "y": 400
+  },
+  {
+    "speaker": "P1",
+    "text": "Blood washes off. Fatigue passes. A broken spirit stays broken.",
+    "start": 16.0,
+    "duration": 6.0,
+    "x": 25,
+    "y": 300
+  },
+  {
+    "speaker": "P2",
+    "text": "Others reach the light while I stay in the dark!",
+    "start": 22.0,
+    "duration": 5.0,
+    "x": 250,
+    "y": 400
+  },
+  {
+    "speaker": "P1",
+    "text": "Seeds start in the dark. You aren't buried. You're planted.",
+    "start": 27.0,
+    "duration": 5.0,
+    "x": 25,
+    "y": 300
+  },
+  {
+    "speaker": "P2",
+    "text": "How long must I endure this?",
+    "start": 32.0,
+    "duration": 4.0,
+    "x": 250,
+    "y": 400
+  },
+  {
+    "speaker": "P1",
+    "text": "Until pain stops scaring you. Until the weight feels light.",
+    "start": 36.0,
+    "duration": 6.0,
+    "x": 25,
+    "y": 300
+  },
+  {
+    "speaker": "P2",
+    "text": "What if I fail again?",
+    "start": 42.0,
+    "duration": 4.0,
+    "x": 250,
+    "y": 450
+  },
+  {
+    "speaker": "P1",
+    "text": "Then rise again. The mountain ignores stumbles. It only asks you to climb.",
+    "start": 46.0,
+    "duration": 7.0,
+    "x": 25,
+    "y": 300
+  },
+  {
+    "speaker": "P2",
+    "text": "So I keep fighting?",
+    "start": 53.0,
+    "duration": 3.0,
+    "x": 285,
+    "y": 450
+  },
+  {
+    "speaker": "P1",
+    "text": "Lift your head. Stand tall. Strike again.",
+    "start": 56.0,
+    "duration": 4.0,
+    "x": 25,
+    "y": 350
+  }
+]

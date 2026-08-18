@@ -1,0 +1,34 @@
+[
+  {
+    "speaker": "P1",
+    "text": "What if I fail?",
+    "start": 0.0,
+    "duration": 2.0,
+    "x": 250,
+    "y": 475
+  },
+  {
+    "speaker": "P2",
+    "text": "Then stand up.",
+    "start": 2.0,
+    "duration": 2.0,
+    "x": 60,
+    "y": 325
+  },
+  {
+    "speaker": "P1",
+    "text": "Again?",
+    "start": 4.0,
+    "duration": 2.0,
+    "x": 275,
+    "y": 450
+  },
+  {
+    "speaker": "P2",
+    "text": "Keep trying until failure is the one that gives up.",
+    "start": 6.0,
+    "duration": 4.0,
+    "x": 60,
+    "y": 300
+  }
+]

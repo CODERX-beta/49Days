@@ -1,0 +1,26 @@
+[
+  {
+    "speaker": "P1",
+    "text": "hey are you coming tonight?",
+    "start": 0.0,
+    "duration": 3.3,
+    "x": 50,
+    "y": 300
+  },
+  {
+    "speaker": "P2",
+    "text": "yeah omw, traffic is insane though",
+    "start": 3.3,
+    "duration": 3.3,
+    "x": 250,
+    "y": 450
+  },
+  {
+    "speaker": "P1",
+    "text": "no worries take your time",
+    "start": 6.6,
+    "duration": 9.9,
+    "x": 50,
+    "y": 300
+  }
+]
