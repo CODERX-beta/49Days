@@ -17,10 +17,6 @@ Usage:
     moment where the video looks representative of where you'll be placing
     text (e.g. a moment with no other person's dialogue on screen yet).
 
-Then open grid.png. Grid lines are drawn every 100px with labels, plus
-faint lines every 50px, so you can read the approximate x,y of wherever
-you want a line of dialogue to start, and plug those numbers straight into
-your script.json's "x" and "y" fields.
 """
 
 import argparse
