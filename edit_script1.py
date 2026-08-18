@@ -2,22 +2,8 @@
 """
 edit_script.py
 
-Interactive, menu-driven editor for chat_bubble_video.py JSON scripts.
-
-Repeatedly lists every line of dialogue. Pick one to open a parameter
-menu for it, then pick exactly which parameter you want to change --
-speaker, start time, duration, x position, or y position. The dialogue
-text itself is never editable here.
-
-There's also a bulk mode: pick a speaker (P1 or P2) and set one x/y
-position that gets applied to every line spoken by that speaker at once,
-instead of editing each line individually.
-
 Usage:
     python3 edit_script.py --script script.json
-
-Each edit is saved back to the file immediately, so you can quit at any
-point (via a menu's 'q' option, or Ctrl+C) without losing progress.
 """
 
 import argparse
