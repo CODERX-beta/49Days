@@ -1,13 +1,5 @@
 #!/usr/bin/env python3
 """
-chat_bubble_video.py
-
-Overlays plain chat-style text (like a text conversation) onto a video,
-for making reel / TikTok style "texting story" videos. Optionally draws a
-solid/translucent background box behind each line of text (a real "chat
-bubble" look) so the text stays legible over any video background --
-the box, when opaque enough, fully covers the video behind it.
-
 Dependencies (all modern, actively maintained, no ImageMagick needed):
     pip install moviepy pillow
 
@@ -17,60 +9,6 @@ Usage:
         [--duration 20] \\
         [--box] [--box-color 20,20,20] [--box-opacity 200] [--box-padding 16] [--box-radius 18]
 
-Script JSON format (a list of dialogue lines):
-[
-  {
-    "speaker": "P1",
-    "text": "hey are you coming tonight?",
-    "start": 0.0,
-    "duration": 2.5,
-    "x": 60,
-    "y": 300
-  },
-  {
-    "speaker": "P2",
-    "text": "yeah omw",
-    "start": 2.5,
-    "duration": 2.0,
-    "x": 600,
-    "y": 500
-  }
-]
-
-- speaker: "P1" or "P2" (controls text color)
-- text: the message text
-- start: seconds into the video when the text should appear
-- duration: how long the text stays on screen (seconds)
-- x, y: top-left pixel coordinates of the text on the video frame
-
---screen-width / --screen-height let you tell the script what size screen
-the text needs to fit on (defaults to the input video's own resolution if
-omitted). Each line automatically wraps onto a new line before it would
-run past the right edge of that screen, based on where its "x" sits --
-text starting further right has less room before it wraps, text starting
-near the left edge has more. There's no need to manually pick a wrap
-width per line.
-
---duration lets you set how long the final output video should be. If
-this is longer than the source video, the source is looped (played again
-from the start) as many times as needed to reach that length, then cut
-off exactly at that point -- so the dialogue can run longer than your
-source footage without you needing to pre-loop it yourself. If omitted,
-the output is just the source video's own length, unchanged.
-
---box turns on a background box drawn behind each line (like an iMessage
-/ WhatsApp bubble). --box-color / --box-opacity / --box-padding /
---box-radius control its look. Note that turning the box on grows each
-line's rendered image outward by --box-padding on every side (the box
-needs room to sit around the text), so a line's visible top-left will
-sit --box-padding pixels above/left of the "x"/"y" you gave it once the
-box is enabled.
-
-Each line is rendered once as a transparent PNG (via Pillow, so no
-ImageMagick / font-cache issues) and then placed on the video as a timed
-ImageClip using MoviePy. This avoids MoviePy's TextClip entirely, which is
-the single biggest source of "works on my machine" compatibility problems
-(it depends on ImageMagick being installed and configured correctly).
 """
 
 import argparse
@@ -83,9 +21,7 @@ from PIL import Image, ImageDraw, ImageFont
 from moviepy import VideoFileClip, ImageClip, CompositeVideoClip, concatenate_videoclips
 import numpy as np
 
-# ---------------------------------------------------------------------------
-# Style config - tweak these to change the look of the text
-# ---------------------------------------------------------------------------
+# Style config
 
 STYLES = {
     "P1": {
@@ -93,7 +29,7 @@ STYLES = {
         "outline_color": (0, 0, 0, 0),      # black outline for legibility
     },
     "P2": {
-        "text_color": (0, 0, 0, 255),    # iMessage blue
+        "text_color": (0, 0, 0, 255),    
         "outline_color": (0, 0, 0, 0),
     },
 }
